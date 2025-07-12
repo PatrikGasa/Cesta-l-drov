@@ -12,5 +12,17 @@
   },
   "paths": {
     "contentPath": "/var/lib/ghost/content"
+  },
+  "mail": {
+    "transport": "SMTP",
+    "from": "Cesta lídrov <info@cestalidrov.sk>",
+    "options": {
+      "host": "smtp.eu.mailgun.org",
+      "port": 587,
+      "auth": {
+        "user": "info@cestalidrov.sk",
+        "pass": "Cestalidrov2025"
+      }
+    }
   }
 }
